@@ -10,6 +10,8 @@ print("OpenAI API Key set successfully.", Settings.openai_api_key)
 #     api_key=Settings.openai_api_key
 # )
 
+#Testing if the Commits are made by CodeMongerr or not
+
 # response = client.chat.completions.create(
 #     model="gpt-3.5-turbo",
 #     messages=[
