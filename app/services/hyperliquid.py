@@ -8,7 +8,7 @@ from typing import Dict, List, Optional, Union
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 load_dotenv()
 
-class HyperliquidAITrader:
+class HyperliquidClient:
     def __init__(self, wallet_address: str = None, private_key: str = None):
         self.exchange = self._initialize_exchange(wallet_address, private_key)
         
